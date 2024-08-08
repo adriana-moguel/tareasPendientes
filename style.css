@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFE4FE; /* Color de fondo morado claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FEFBD8; /* Fondo del contenedor */
+    border: 3px solid #8B008B; /* Borde del contenedor de color morado más fuerte */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(139, 0, 139, 0.5); /* Sombra para darle profundidad */
+}
+
+.encabezado {
+    color: #8B008B; /* Color del texto del encabezado */
+    padding: 10px 0px 5px 0px;
+    font-size: 20px;
+}
+
+.encabezado h3{
+    font-size: 15px;
+}
+.agregar {
+    background-color: #FFE4FE; /* Fondo del área de agregar tarea */
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.agregar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFE4FE; /* Fondo del input */
+    padding-left: 10px;
+    color: #8B008B; /* Color del texto del input */
+}
+
+.agregar input::placeholder {
+    color: #8B008B; /* Color del placeholder */
+}
+
+.agregar i {
+    font-size: 30px;
+    color: #8B008B; /* Color del icono de agregar */
+}
+
+.agregar i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tareas h3 {
+    color: #8B008B; /* Color del encabezado de tareas */
+    margin-bottom: 20px;
+    
+}
+
+.tareas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tareas li {
+    background-color: #FFE4FE; /* Fondo de las tareas */
+    border-radius: 15px;
+    padding: 10px;
+    color: #8B008B; /* Color del texto de las tareas */
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas {
+    font-size: 18px;
+}
+
+.tareas p {
+    font-weight: 900;
+}
+
+.tareas i {
+    color: #8B008B; /* Color del icono de tareas */
+}
+
+.tareas i:hover {
+    color: #8B008B; /* Color del icono de tareas al pasar el ratón */
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #8B008B; /* Color del texto tachado */
+}
